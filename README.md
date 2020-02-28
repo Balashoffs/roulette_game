@@ -4,13 +4,14 @@ A new roulette game
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Создать приложение-рулетку.
 
-A few resources to get you started if this is your first Flutter project:
+Игровой экран: https://prnt.sc/r8ikrf (фон, картинку колеса, кнопку и ссылку на privacy policy предоставим). 
+Алгоритм такой: при нажатии Spin колесо крутится 5-15 секунд (рандом), в зависимости от выпавшей секции начисляется Score. Во время движения колеса кнопка Spin меняется на Wait и становится неактивной.
+При клике на Privacy Policy открывается Webview со ссылкой (ссылка на наш privacy policy).
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Общие требования к приложениям такие:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Интеграция с Facebook SDK
+- Интеграция Firebase и Onesignal для отправки пуш уведомлений
+- Подключение App Metrika
