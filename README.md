@@ -12,6 +12,10 @@ A new roulette game
 
 Общие требования к приложениям такие:
 
-- Интеграция с Facebook SDK
-- Интеграция Firebase и Onesignal для отправки пуш уведомлений
-- Подключение App Metrika
+- Интеграция с Facebook SDK - (https://pub.dev/packages/facebook_deeplinks, https://pub.dev/packages/facebook_sdk)
+    
+- Интеграция Firebase для отправки пуш уведомлений 
+- Интеграция Onesignal для отправки пуш уведомлений (https://pub.dev/packages/onesignal_flutter)
+    https://documentation.onesignal.com/docs/flutter-sdk-setup
+- Подключение App Metrika (https://pub.dev/packages/appmetrica_sdk#-installing-tab-)
+    https://appmetrica.yandex.com/docs/quick-start/concepts/quick-start.html
