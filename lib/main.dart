@@ -33,7 +33,7 @@ class MainScreen extends StatelessWidget {
           children: <Widget>[
             Center(
               child: Image.asset(
-                'assets/images/back.jpg',
+                'assets/images/back.png',
                 width: size.width,
                 height: size.height,
                 fit: BoxFit.fill,
