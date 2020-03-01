@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:roulette_game/widgets/privacy_policy_webview_widget.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class RouletteElementsWidget extends StatefulWidget {
@@ -23,7 +24,15 @@ class _RouletteElementsWidgetState extends State<RouletteElementsWidget> {
           GestureDetector(
               child: Text("Privacy Police", style: TextStyle(decoration: TextDecoration.underline, color: Colors.black)),
               onTap: () {
-                print("Privacy Police");
+                Navigator.of(context).push(
+                    MaterialPageRoute(
+                        builder: (BuildContext context)=>
+                            PrivacyPolicesWebviewWidget(
+                              title: 'Privacy Police',
+                              url: 'https://www.privacypolicies.com/blog/privacy-policy-template/',
+                            )
+                    )
+                );
               }
           ),
         ],
