@@ -6,7 +6,6 @@ class ScoreWidget extends StatelessWidget {
   ScoreWidget(this.selected);
 
   final Map<int, String> labels ={
-
     1: '1000\$',
     2: '400\$',
     3: '800\$',
